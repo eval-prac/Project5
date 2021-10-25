@@ -46,7 +46,7 @@ class CartController {
                     let productsIndepedant = cart[productId];
                     for (let productOption in productsIndepedant) {
                         totalQuantity = totalQuantity + productsIndepedant[productOption] * 1;
-                        totalPrice = totalPrice + product.price * 1;
+                        totalPrice = totalPrice + productsIndepedant[productOption] * product.price * 1;
                         product.color = productOption;
                         product.quantity = productsIndepedant[productOption];
                         product.productId = productId;
