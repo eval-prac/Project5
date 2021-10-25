@@ -1,0 +1,1 @@
+console.error("Error: Can't walk dependency graph: Cannot find module 'E:\\web\\vs\\ws1\\prj5bis\\front\\js\\index.js' from 'E:\\web\\vs\\ws1\\prj5bis\\front\\js\\_fake.js'\n    required by E:\\web\\vs\\ws1\\prj5bis\\front\\js\\_fake.js");
